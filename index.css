@@ -1,0 +1,103 @@
+*{
+  
+    margin: auto 0;
+}
+body{
+    background: linear-gradient(to right,white, lightblue);
+}
+.navbar{
+    border: 1px,solid,black;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    box-shadow: blanchedalmond;
+}
+ ul{
+    display: flex;
+    border: 2px solid black;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+   
+    
+   
+    
+  
+
+
+}
+ul li{
+    list-style: none;
+   padding: 20px;
+   flex:1;
+   text-transform: uppercase;
+   
+   
+  
+   
+    
+    
+}
+.emj{
+    display: flex;
+   
+    padding: 0;
+    margin: 0;
+
+}
+
+.cover{
+    border: 1px solid black;
+    margin: 10px;
+    width: 100%;
+    margin-left: 5px;
+    height: 50vh;
+    text-align: center;
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    margin: 10px;
+}
+.partner{
+    border: 1px solid black;
+  
+  
+}
+.partner >img:hover{
+    transform: scale(1.1);
+
+}
+footer{
+    text-align: center;
+width: 100%;
+margin-top: 20px;
+    background-color: blanchedalmond;
+    margin-bottom: 0;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 900px){
+    .cover{
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 780px){
+    ul {
+
+display: flex;
+flex-direction: column;    
+    }
+    
+       
+
+    
+}
